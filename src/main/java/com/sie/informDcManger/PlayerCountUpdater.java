@@ -15,7 +15,7 @@ import java.nio.charset.StandardCharsets;
 public class PlayerCountUpdater extends JavaPlugin implements Listener {
 
     private static final String API_URL = "http://192.168.178.108:8080/api/applications/Minecraft-Paper";
-    private static final String JSON_TEMPLATE = "{\"currentPlayer\":%d}";
+    private static final String JSON_TEMPLATE = "{\"currentPlayers\":%d}";
 
     @Override
     public void onEnable() {
